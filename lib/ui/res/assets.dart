@@ -1,0 +1,1 @@
+const String INVITE_ILLUSTRATION='assets/invite.png';
