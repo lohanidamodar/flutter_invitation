@@ -1,4 +1,5 @@
 import 'package:finvitation/ui/pages/auth.dart';
+import 'package:finvitation/ui/pages/home.dart';
 import 'package:finvitation/ui/res/colors.dart';
 import 'package:flutter/material.dart';
 import 'ui/pages/landing_page.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
       home: LandingPage(),
       routes: {
         "auth" :(_) => AuthPage(),
+        "home" : (_) => HomePage(),
       },
     );
   }
