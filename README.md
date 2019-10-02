@@ -1,6 +1,11 @@
-# finvitation
+# Invitation App UI design in Flutter
 
-A new Flutter project.
+An invitation app UI designed in flutter. Design inspired from [Uplabs](https://www.uplabs.com/posts/invitation-mobile-app)
+
+
+## Screenshots
+<img src="screenshots/1.png" height="480px" /> <img src="screenshots/2.png" height="480px" /> <img src="screenshots/3.png" height="480px" />
+
 
 ## Getting Started
 
