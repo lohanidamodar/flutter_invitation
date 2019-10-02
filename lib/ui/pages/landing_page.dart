@@ -45,7 +45,7 @@ class LandingPage extends StatelessWidget {
                       child: Text("Create an Account"),
                       textColor: Theme.of(context).primaryColor,
                       color: Colors.white,
-                      onPressed: () {},
+                      onPressed: () => Navigator.pushNamed(context, 'auth'),
                     ),
                   ),
                   Container(
@@ -58,7 +58,7 @@ class LandingPage extends StatelessWidget {
                       child: Text("Sign in with Google"),
                       textColor: Colors.white,
                       color: Colors.white,
-                      onPressed: () {},
+                      onPressed: () =>Navigator.pushNamed(context, 'auth'),
                     ),
                   ),
                   const SizedBox(height: 10.0),
